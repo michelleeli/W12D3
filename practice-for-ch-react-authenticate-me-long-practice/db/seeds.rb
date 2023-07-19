@@ -32,5 +32,60 @@ ApplicationRecord.transaction do
     }) 
   end
 
+  Bench.create!({
+    title: 'Manhattan Movie Bench',
+    description: 'View of Queensborough bridge and water',
+    price: 30,
+    seating:3,
+    lng:40.759008811124424,
+    lat:-73.95902392836702
+  })
+
+    Bench.create!({
+    title: 'Fun Bench',
+    description: 'fun!',
+    price: 40,
+    seating: 69,
+    lng: 40.75684736081709, 
+    lat: -73.98310473666788
+  })
+
+    Bench.create!({
+    title: 'Ok bench',
+    description: 'its ok',
+    price: 10,
+    seating: 13,
+    lng: 40.66034195637639,
+    lat: -73.96890217847232
+  })
+
+    Bench.create!({
+    title: 'Nice Bench',
+    description: 'nice!',
+    price: 52,
+    seating: 5,
+    lng: 40.73699414100244, 
+    lat: -73.99060733097531,
+  })
+
+    Bench.create!({
+    title: 'Cool Bench',
+    description: 'cool!',
+    price: 40,
+    seating: 6,
+    lng:40.75487271153465, 
+    lat: -73.98374088713236,
+  })
+
+    Bench.create!({
+    title: 'Ugly bench',
+    description: 'ew',
+    price: 10,
+    seating: 1,
+    lng: 40.73198524677008, 
+    lat: -73.99730826764701,
+  })
+
+
   puts "Done!"
 end
