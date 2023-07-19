@@ -1,0 +1,17 @@
+{
+  "name": "bench_bnb",
+  "version": "1.0.0",
+  "description": "Everyone's favorite app for finding and rating benches!",
+  "engines": {
+    "node": "16.x"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
