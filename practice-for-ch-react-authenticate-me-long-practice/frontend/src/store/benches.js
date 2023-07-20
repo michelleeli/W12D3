@@ -44,7 +44,6 @@ export const createBench = (benchData) => async dispatch => {
     })
     if (res.ok) {
         const data = await res.json();
-        console.log(data)
         dispatch(addBench(data))
     }
 }
